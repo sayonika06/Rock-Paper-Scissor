@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-color: rgb(22, 69, 97);
+}
+header
+{
+   
+    background: white;
+    padding: 2rem;
+}
+
+header > h1
+{
+    color: rgb(22, 69, 97);
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+.scoreboard
+{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 20px auto;
+    /* border: 3px solid white; */
+    border-radius: 8px;
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    position: relative;
+    width: 506px;
+    height: 106px;
+    
+}
+
+.badge
+{
+    background-color: rgb(119, 16, 16);
+    color: azure;
+    font-size: 14p;
+    padding: 2px 10px;
+    font-family:'Prompt', sans-serif;
+}
+
+#userlabel
+{
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(119, 16, 16);
+    color: azure;
+    padding: 2px 10px;
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    padding-right: 51px;
+    padding-left: 51px;
+}
+
+#complabel
+{
+    position: absolute;
+    top: 0px;
+    left: 335px;
+   font-size: 40px;
+}
+
+.results
+{
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+    font-family:'Prompt', sans-serif;
+}
+
+.parent
+{
+    margin: auto;
+    /* border: 2px solid white; */
+    width: 950px;
+    font-size: 40px;
+}
+
+
+.choices
+{
+    margin: 50px 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.choices:hover
+{
+    cursor: pointer;
+    
+}
+
+#p > img
+{
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 300px;
+}
+
+#p > img:hover
+{
+    content: url("paphov.png");
+}
+
+
+#r > img
+{
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 300px;
+}
+#r > img:hover
+{
+    content: url("rockhov.png");
+}
+
+#s > img
+{
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 300px;
+}
+#s > img:hover
+{
+    content: url("scihov.png");
+}
